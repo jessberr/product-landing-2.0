@@ -1,0 +1,29 @@
+body{ margin:0px; background:#fff; }
+
+header {
+    background: #eee;
+    background-size:cover;
+    height:500px;    
+}
+
+#top-content{
+    display:flex;
+}
+.social-media{
+    justify-content: flex-start;  
+}
+.account{
+    justify-content:flex-end;
+}
+.account, .social-media{
+    display:flex;
+    flex-direction: row;
+   width:50%;
+    padding-top:20px;
+}
+
+a i{
+    color:black;
+    margin:20px
+}
+

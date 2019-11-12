@@ -1,0 +1,25 @@
+body{ margin:0px; background:#fff; }
+
+header {
+    background: #eee;
+    background-size:cover;
+    height:500px;    
+}
+
+.top-content{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+
+.social-media{
+    
+    width:20%;
+    justify-content: space-evenly;
+    padding-top:20px;
+}
+
+a{
+    color:black;
+}
+

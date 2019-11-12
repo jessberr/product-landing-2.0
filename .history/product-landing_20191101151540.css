@@ -1,0 +1,37 @@
+body{ margin:0px; background:#fff; }
+
+header {
+    background: #eee;
+    background-size:cover;
+    height:500px;   
+    padding: 0 2%; 
+}
+
+#top-content{
+    display:flex;
+}
+.social-media{
+    justify-content: flex-start;  
+}
+.account{
+    justify-content:flex-end;
+}
+.account, .social-media{
+    display:flex;
+    flex-direction: row;
+   width:50%;
+    padding-top:20px;
+}
+
+.primary-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%
+}
+
+a i{
+    color:black;
+    margin:20px
+}
+

@@ -1,0 +1,19 @@
+body{ margin:0px; background:#fff; }
+
+header {
+    background-image: url("/images/closeup-spools.jpg");
+    background-size:cover;
+    height:500px;
+    
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    width:30%
+}
+
+a{
+    color:black;
+}
+

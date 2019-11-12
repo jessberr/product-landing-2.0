@@ -1,0 +1,31 @@
+body{ margin:0px; background:#fff; }
+
+header {
+    background: #eee;
+    background-size:cover;
+    height:500px;    
+}
+
+#top-content{
+    display:flex;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    width:20%;
+    justify-content: space-evenly;
+    padding-top:20px;
+}
+
+.account{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:100%;
+}
+
+a{
+    color:black;
+}
+

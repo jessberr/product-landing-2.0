@@ -1,0 +1,12 @@
+body{ margin:0px; background:#fff; }
+
+header {
+
+    height:500px;
+}
+
+header::after{
+    content:"";
+    background: url("/images/closeup-spools.jpg") ;
+
+}
